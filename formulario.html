@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+    
+</head>
+<body>
+    <main>
+        <div class="nav">
+            <a href="formulario.html" class="nav-link">Ir a formulario </a>
+            <a href="index.html" class="nav-link">Ir al index </a>
+        </div>
+    </main>
+
+    <h2>Contacto</h2>
+    <form action="formulario.html" method="GET">
+        <p>
+            <label for="name"> Nombre:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+                
+        </p>
+
+        <p>
+            <label for="email"> Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+        </p>
+
+        <p>
+            <label for="gender"> Genero:   *Masculino</label>
+                <input type="radio" class="form-control" id="gender" name="gender" required>
+            <label for="gender">  *Femenino</label>
+                <input type="radio" class="form-control" id="gender" name="gender" required>
+        </p>
+
+        <p>
+            <label for="password"> Contraseña:</label>
+                <input type="password" class="form-control" id="password" name="password" required>
+        </p>
+
+        <p>
+            <label for="comment"> Comentario:</label>
+                <input type="text area" class="form-control" id="comment" name="comment" required>
+        </p>
+
+        <p>
+            <label for="select"> Ciudad: Guadalajara, Zapopan, Tonalá, Otra</label>
+                <input type="select" class="form-control" id="select" name="select" required>
+        </p>
+
+        <p>
+            <label for="check"> Me interesa contratarte:</label>
+                <input type="check" class="form-control" id="check" name="check" required>
+        </p>
+
+        <p>
+            <button type="submit">Enviar</button>
+        </p>
+
+        <img src="siempre-puedes-confiar-en-big-mama-xd.png" width="500" height="500">
+
+
+    </form>
+ 
+</body>
+</html>
